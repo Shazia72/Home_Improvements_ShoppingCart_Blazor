@@ -1,0 +1,29 @@
+﻿@using HomeImprovementShopCartBlazor.Web.Services.Contracts
+@implements IDisposable
+@inject IShoppingCartService shoppingCartService
+
+<a href="ShoppingCart">
+    <i class="oi oi-cart"></i>&nbsp;Cart
+    <span class="badge bg-info">@shoppingCartItemCount</span>
+</a>
+
+@code {
+    private int shoppingCartItemCount = 0;
+
+    protected override void OnInitialized()
+    {
+        shoppingCartService.OnShoppingCartChanged += ShoppingCartChanged;
+    }
+
+    protected void ShoppingCartChanged(int totalQty)
+    {
+        shoppingCartItemCount = totalQty;
+        StateHasChanged();
+    }
+
+    void IDisposable.Dispose()
+    {
+        shoppingCartService.OnShoppingCartChanged -= ShoppingCartChanged;
+    }
+
+}

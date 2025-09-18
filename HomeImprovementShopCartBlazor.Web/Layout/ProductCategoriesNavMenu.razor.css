@@ -1,0 +1,84 @@
+﻿/* Toggle button (hamburger) */
+.navbar-toggler {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Top bar */
+.top-row {
+    height: 3.5rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center; /* keeps the menu centered */
+}
+
+/* Brand/logo text */
+.navbar-brand {
+    font-size: 1.1rem;
+    color: lightseagreen;
+    text-decoration: none;
+}
+
+/* Icon adjustments */
+.oi {
+    width: 2rem;
+    font-size: 1.1rem;
+    vertical-align: text-top;
+    top: -2px;
+}
+
+/* Menu container */
+.nav-menu {
+    display: flex !important; /* horizontal layout */
+    flex-direction: row !important; /* override Bootstrap column */
+    justify-content: center; /* center items */
+    align-items: center; /* vertical centering */
+    gap: 1.5rem; /* space between items */
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none; /* no bullets if using <ul> */
+}
+
+/* Each item */
+.nav-item {
+    font-size: 0.9rem;
+    display: inline-block;
+    margin: 0; /* spacing handled by gap above */
+}
+
+    /* Links */
+    .nav-item ::deep a {
+        color: lightseagreen;
+        border-radius: 4px;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        padding: 0 1rem; /* horizontal padding inside link */
+        line-height: 3rem;
+        text-decoration: none;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+        /* Active state */
+        .nav-item ::deep a.active {
+            background-color: rgba(255, 255, 255, 0.25);
+            color: cadetblue;
+        }
+
+        /* Hover state */
+        .nav-item ::deep a:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+            color: cadetblue;
+        }
+
+/* Responsive behavior */
+@media (min-width: 641px) {
+    .navbar-toggler {
+        display: none; /* hide hamburger on large screens */
+    }
+
+    .collapse {
+        display: block; /* always show menu on wide screens */
+    }
+}

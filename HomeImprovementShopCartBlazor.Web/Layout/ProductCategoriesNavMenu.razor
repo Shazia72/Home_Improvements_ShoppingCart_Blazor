@@ -1,0 +1,49 @@
+﻿@using HomeImprovementShopCartBlazor.Models.Dtos
+@using HomeImprovementShopCartBlazor.Web.Services.Contracts
+@inject IProductService ProductService
+
+@if(ProductCategoryDtos == null && ErrorMessage == null)
+{
+    <DisplaySpinner/>
+}
+else if(ErrorMessage != null)
+{
+    <DisplayError ErrorMessage = "@ErrorMessage"/>
+}
+else
+{    
+    <div>
+        <ul class="navbar-nav flex-row justify-content-left w-100 nav-menu">
+            <NavLink class="fas fa-home" href="/"></NavLink>
+        @foreach (var productCategory in ProductCategoryDtos)
+        { 
+            var link = "/ProductsByCategory/" + productCategory.Id;
+                <li class="nav-item">
+                    <NavLink class="" href="@link">
+                        <span class="@productCategory.IconCSS"></span>&nbsp;@productCategory.Name
+                    </NavLink>
+                </li>
+        }
+        </ul>
+           
+    </div>
+    
+}
+
+@code {
+    public IEnumerable<ProductCategoryDto> ProductCategoryDtos { get; set; }
+
+    public string ErrorMessage { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            ProductCategoryDtos = await ProductService.GetProductCategories();
+        }
+        catch (Exception ex)
+        {
+            ErrorMessage = ex.Message;
+        }
+    }
+}

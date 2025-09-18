@@ -1,0 +1,11 @@
+C:\Shazia\CProject\BlazorApps\HomeImprovementShopCartBlazor\HomeImprovementShopCartBlazor.Models\bin\Debug\net9.0\HomeImprovementShopCartBlazor.Models.deps.json
+C:\Shazia\CProject\BlazorApps\HomeImprovementShopCartBlazor\HomeImprovementShopCartBlazor.Models\bin\Debug\net9.0\HomeImprovementShopCartBlazor.Models.dll
+C:\Shazia\CProject\BlazorApps\HomeImprovementShopCartBlazor\HomeImprovementShopCartBlazor.Models\bin\Debug\net9.0\HomeImprovementShopCartBlazor.Models.pdb
+C:\Shazia\CProject\BlazorApps\HomeImprovementShopCartBlazor\HomeImprovementShopCartBlazor.Models\obj\Debug\net9.0\HomeImprovementShopCartBlazor.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Shazia\CProject\BlazorApps\HomeImprovementShopCartBlazor\HomeImprovementShopCartBlazor.Models\obj\Debug\net9.0\HomeImprovementShopCartBlazor.Models.AssemblyInfoInputs.cache
+C:\Shazia\CProject\BlazorApps\HomeImprovementShopCartBlazor\HomeImprovementShopCartBlazor.Models\obj\Debug\net9.0\HomeImprovementShopCartBlazor.Models.AssemblyInfo.cs
+C:\Shazia\CProject\BlazorApps\HomeImprovementShopCartBlazor\HomeImprovementShopCartBlazor.Models\obj\Debug\net9.0\HomeImprovementShopCartBlazor.Models.csproj.CoreCompileInputs.cache
+C:\Shazia\CProject\BlazorApps\HomeImprovementShopCartBlazor\HomeImprovementShopCartBlazor.Models\obj\Debug\net9.0\HomeImprovementShopCartBlazor.Models.dll
+C:\Shazia\CProject\BlazorApps\HomeImprovementShopCartBlazor\HomeImprovementShopCartBlazor.Models\obj\Debug\net9.0\refint\HomeImprovementShopCartBlazor.Models.dll
+C:\Shazia\CProject\BlazorApps\HomeImprovementShopCartBlazor\HomeImprovementShopCartBlazor.Models\obj\Debug\net9.0\HomeImprovementShopCartBlazor.Models.pdb
+C:\Shazia\CProject\BlazorApps\HomeImprovementShopCartBlazor\HomeImprovementShopCartBlazor.Models\obj\Debug\net9.0\ref\HomeImprovementShopCartBlazor.Models.dll
