@@ -14,8 +14,14 @@ A comprehensive Blazor WebAssembly + ASP.NET Core Minimal API project for managi
 - [Entity Framework Core 9](https://learn.microsoft.com/ef/core)
 - [SQL Server](https://www.microsoft.com/sql-server)
 - [Blazored.LocalStorage](https://github.com/Blazored/LocalStorage)
+
 ### Screetshots
-![alt text](image.png)
+![Home](docs/Screenshots/Page1.png)
+![Kitchen](docs/Screenshots/AllKitchenPics.png)
+![Bedroom](docs/Screenshots/AllBedroomPic.png)
+![AddToCart](docs/Screenshots/AddToCart.png)
+![Cart](docs/Screenshots/CartItems.png)
+
 ## ⚡ Getting Started
 
 ### Prerequisites
