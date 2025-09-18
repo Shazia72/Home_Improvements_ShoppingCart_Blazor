@@ -1,4 +1,4 @@
-# HomeImprovementShopCartBlazor 🛠️
+# Home Improvement Shopping Cart Blazor 🛠️
 
 A comprehensive Blazor WebAssembly + ASP.NET Core Minimal API project for managing a home improvement shopping cart best practices.
 
